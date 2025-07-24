@@ -32,7 +32,7 @@ documents = load_documents()  # Wrap text in Document objects
 
 Settings.embed_model = FastEmbedEmbedding()
 Settings.llm = HuggingFaceInferenceAPI(
-    model_name='mistralai/Mistral-7B-Instruct-v0.3',
+    model_name='mistralai/Mistral-7B-Instruct-v0.2',
     token=HF_TOKEN,
 )
 
