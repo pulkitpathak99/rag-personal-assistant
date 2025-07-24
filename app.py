@@ -1,4 +1,4 @@
-HF_TOKEN = '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'
+HF_TOKEN = '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'
 
 import os
 import streamlit as st
